@@ -1,0 +1,19 @@
+PATH
+  remote: .
+  specs:
+    hystrix_metrics (0.0.1-java)
+      jar-dependencies (~> 0.3.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    jar-dependencies (0.3.12)
+
+PLATFORMS
+  java
+
+DEPENDENCIES
+  hystrix_metrics!
+
+BUNDLED WITH
+   1.17.1

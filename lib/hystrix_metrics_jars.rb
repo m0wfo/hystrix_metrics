@@ -1,0 +1,40 @@
+# this is a generated file, to avoid over-writing it just delete this comment
+begin
+  require 'jar_dependencies'
+rescue LoadError
+  require 'com/netflix/hystrix/hystrix-metrics-event-stream/1.4.10/hystrix-metrics-event-stream-1.4.10.jar'
+  require 'org/jboss/xnio/xnio-api/3.3.8.Final/xnio-api-3.3.8.Final.jar'
+  require 'org/slf4j/slf4j-api/1.7.0/slf4j-api-1.7.0.jar'
+  require 'commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar'
+  require 'org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar'
+  require 'org/jboss/spec/javax/servlet/jboss-servlet-api_4.0_spec/1.0.0.Final/jboss-servlet-api_4.0_spec-1.0.0.Final.jar'
+  require 'commons-configuration/commons-configuration/1.8/commons-configuration-1.8.jar'
+  require 'io/reactivex/rxjava/1.0.10/rxjava-1.0.10.jar'
+  require 'com/fasterxml/jackson/core/jackson-core/2.5.2/jackson-core-2.5.2.jar'
+  require 'commons-lang/commons-lang/2.6/commons-lang-2.6.jar'
+  require 'com/netflix/hystrix/hystrix-core/1.4.10/hystrix-core-1.4.10.jar'
+  require 'io/undertow/undertow-servlet/2.0.14.Final/undertow-servlet-2.0.14.Final.jar'
+  require 'io/undertow/undertow-core/2.0.14.Final/undertow-core-2.0.14.Final.jar'
+  require 'org/jboss/spec/javax/annotation/jboss-annotations-api_1.2_spec/1.0.2.Final/jboss-annotations-api_1.2_spec-1.0.2.Final.jar'
+  require 'com/netflix/archaius/archaius-core/0.4.1/archaius-core-0.4.1.jar'
+  require 'org/jboss/xnio/xnio-nio/3.3.8.Final/xnio-nio-3.3.8.Final.jar'
+end
+
+if defined? Jars
+  require_jar 'com.netflix.hystrix', 'hystrix-metrics-event-stream', '1.4.10'
+  require_jar 'org.jboss.xnio', 'xnio-api', '3.3.8.Final'
+  require_jar 'org.slf4j', 'slf4j-api', '1.7.0'
+  require_jar 'commons-logging', 'commons-logging', '1.1.1'
+  require_jar 'org.jboss.logging', 'jboss-logging', '3.3.2.Final'
+  require_jar 'org.jboss.spec.javax.servlet', 'jboss-servlet-api_4.0_spec', '1.0.0.Final'
+  require_jar 'commons-configuration', 'commons-configuration', '1.8'
+  require_jar 'io.reactivex', 'rxjava', '1.0.10'
+  require_jar 'com.fasterxml.jackson.core', 'jackson-core', '2.5.2'
+  require_jar 'commons-lang', 'commons-lang', '2.6'
+  require_jar 'com.netflix.hystrix', 'hystrix-core', '1.4.10'
+  require_jar 'io.undertow', 'undertow-servlet', '2.0.14.Final'
+  require_jar 'io.undertow', 'undertow-core', '2.0.14.Final'
+  require_jar 'org.jboss.spec.javax.annotation', 'jboss-annotations-api_1.2_spec', '1.0.2.Final'
+  require_jar 'com.netflix.archaius', 'archaius-core', '0.4.1'
+  require_jar 'org.jboss.xnio', 'xnio-nio', '3.3.8.Final'
+end
