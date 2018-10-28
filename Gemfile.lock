@@ -8,12 +8,16 @@ GEM
   remote: https://rubygems.org/
   specs:
     jar-dependencies (0.3.12)
+    minitest (5.11.3)
+    rake (12.3.1)
 
 PLATFORMS
   java
 
 DEPENDENCIES
   hystrix_metrics!
+  minitest (= 5.11.3)
+  rake (= 12.3.1)
 
 BUNDLED WITH
    1.17.1
