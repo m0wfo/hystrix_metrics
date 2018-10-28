@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/m0wfo/hystrix_metrics.svg?branch=master)](https://travis-ci.org/m0wfo/hystrix_metrics)
+
 # Hystrix Metrics
 
 Capture [hystrix metrics](https://medium.com/netflix-techblog/hystrix-dashboard-turbine-stream-aggregator-60985a2e51df) from your Ruby apps
