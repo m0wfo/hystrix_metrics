@@ -1,6 +1,6 @@
 # Hystrix Metrics
 
-Capture hystrix metrics from your Ruby apps
+Capture [hystrix metrics](https://medium.com/netflix-techblog/hystrix-dashboard-turbine-stream-aggregator-60985a2e51df) from your Ruby apps
 
 ## Usage
 
